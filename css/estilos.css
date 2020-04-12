@@ -474,7 +474,6 @@ form {
 
 input[type="email"],
 input[type="text"] {
-    font-family: 'Raleway';
     font-weight: 300;
     display: inline-block;
     width: 48%;
@@ -494,7 +493,6 @@ textarea:focus {
 }
 
 textarea {
-    font-family: 'Raleway';
     font-weight: 300;
     display: block;
     width: 100%;
@@ -510,7 +508,6 @@ textarea {
 }
 
 input[type="submit"] {
-    font-family: 'Raleway';
     font-weight: 300;
     display: inline-block;
     padding: 15px;
@@ -817,7 +814,7 @@ input[type="submit"] {
 @media (max-width: 880px) {
 
 	.footer-distributed{
-		font: bold 14px 'Raleway';
+		font: bold 14px;
 	
 	}
 
