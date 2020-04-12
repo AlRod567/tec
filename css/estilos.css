@@ -772,7 +772,7 @@ input[type="submit"] {
     }
 
     header .titulo {
-        font-size: 55px;
+        font-size: 45px;
     }
 
 
@@ -817,7 +817,7 @@ input[type="submit"] {
 @media (max-width: 880px) {
 
 	.footer-distributed{
-		font: bold 14px sans-serif;
+		font: bold 14px 'Raleway';
 	
 	}
 
