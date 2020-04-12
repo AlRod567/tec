@@ -619,15 +619,15 @@ input[type="submit"] {
 .footer-distributed .footer-company-about{
 	line-height: 20px;
 	color:  #f4f4f4;
-	font-size: 13px;
-	font-weight: normal;
+	font-size: 11px;
+    font-weight: normal;
 	margin: 0;
 }
 
 .footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
-	font-size: 14px;
+    font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
@@ -641,7 +641,6 @@ input[type="submit"] {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #043264;
 	border-radius: 50%;
 
 	font-size: 20px;
@@ -652,6 +651,24 @@ input[type="submit"] {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
+
+.icon-foo {
+    height: 35px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.icon-foo-2 {
+    height: 35px;
+    margin-right: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.icons-foo {
+    margin-bottom: 10px;
+}
+
 
 /* Responsive */
 
@@ -664,6 +681,10 @@ input[type="submit"] {
 @media screen and (max-width:640px) {
     header .textos {
         margin-top: 130px;
+    }
+
+    header .titulo {
+        font-size: 30px;
     }
 
     .none {
@@ -702,7 +723,7 @@ input[type="submit"] {
     }
 
     header .titulo {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     header .subtitulo {
