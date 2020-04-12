@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Metropolis', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     overflow-x: hidden;
 }
@@ -16,9 +16,7 @@ h1 {
     font-weight: 900;
 }
 
-@font-face {
-    font-family: "Metropolis"; src: url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.eot"); src: url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.woff") format("woff"), url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.svg#Metropolis") format("svg");
-}
+
 
 /* Header */
 
@@ -309,17 +307,17 @@ nav {
 
 .parrafo {
     margin-bottom: 12px;
-    font-weight: 200;
+    font-weight: 300;
     text-align: justify;
     line-height: 24px;
-    color: rgb(26, 26, 26);
+    color: rgb(19, 19, 19);
 }
 
 .acerca-de .boton {
     display: inline-block;
     padding: 6px;
     width: 125px;
-    font-weight: 200;
+    font-weight: 300;
     border: 1px solid rgba(24, 16, 16, .7);
     color: rgb(24, 16, 16);
     font-size: 15px;
@@ -476,8 +474,8 @@ form {
 
 input[type="email"],
 input[type="text"] {
-    font-family: 'Metropolis';
-        src: url(../fonts/Metropolis-Medium.woff);
+    font-family: 'Raleway';
+    font-weight: 300;
     display: inline-block;
     width: 48%;
     padding: 13px;
@@ -496,8 +494,8 @@ textarea:focus {
 }
 
 textarea {
-    font-family: 'Metropolis';
-        src: url(../fonts/Metropolis-Medium.woff);
+    font-family: 'Raleway';
+    font-weight: 300;
     display: block;
     width: 100%;
     min-width: 100%;
@@ -512,6 +510,8 @@ textarea {
 }
 
 input[type="submit"] {
+    font-family: 'Raleway';
+    font-weight: 300;
     display: inline-block;
     padding: 15px;
     border: none;
@@ -683,7 +683,7 @@ input[type="submit"] {
     }
 
     header .titulo {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .none {
