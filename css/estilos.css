@@ -474,6 +474,7 @@ form {
 
 input[type="email"],
 input[type="text"] {
+    font-family: 'Raleway';
     font-weight: 300;
     display: inline-block;
     width: 48%;
@@ -493,6 +494,7 @@ textarea:focus {
 }
 
 textarea {
+    font-family: 'Raleway';
     font-weight: 300;
     display: block;
     width: 100%;
