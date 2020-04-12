@@ -5,15 +5,16 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Metropolis', sans-serif;
     font-size: 16px;
     overflow-x: hidden;
 }
 
 /* Fuentes */
 
-
-
+h1 {
+    font-weight: 900;
+}
 
 /* Header */
 
