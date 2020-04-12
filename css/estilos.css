@@ -16,6 +16,10 @@ h1 {
     font-weight: 900;
 }
 
+@font-face {
+    font-family: "Metropolis"; src: url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.eot"); src: url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.woff") format("woff"), url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7f289fbe95c5cc66a4b70f3622249b87.svg#Metropolis") format("svg");
+}
+
 /* Header */
 
 header {
@@ -659,12 +663,6 @@ input[type="submit"] {
     vertical-align: middle;
 }
 
-.icon-foo-2 {
-    height: 35px;
-    margin-right: 20px;
-    margin-left: 20px;
-    vertical-align: middle;
-}
 
 .icons-foo {
     margin-bottom: 10px;
